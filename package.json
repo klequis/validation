@@ -19,7 +19,7 @@
     "@babel/types": "^7.4.4",
     "@types/node": "^12.0.8",
     "chai": "^4.2.0",
-    "mocha": "^6.1.4"
+    "mocha": "^10.2.0"
   },
   "scripts": {
     "test": "NODE_ENV=testLocal NODE_PATH=./ mocha --require @babel/register --verbose --serial",
